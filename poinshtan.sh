@@ -26,7 +26,7 @@ elif [ "$1" = "update" ]; then
 	update
 	exit 1
 else
-	red "Helper Bot running..."
+	red "تسارجا لاحرد نیالنیا..."
 	#sudo service redis-server restart
 	lua ./bot/bot.lua
 fi
