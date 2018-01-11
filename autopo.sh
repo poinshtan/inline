@@ -4,3 +4,4 @@ while(true) do
 ./poinshtan.sh
 let COUNTER=COUNTER+1 
 done
+ 
