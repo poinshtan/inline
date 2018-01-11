@@ -13,7 +13,7 @@ sudo luarocks install ansicolors
 sudo luarocks install serpent 
 }
 
-green() {
+red() {
   printf '\e[1;32m%s\n\e[0;39;49m' "$@"
 }
 update() {
@@ -26,7 +26,7 @@ elif [ "$1" = "update" ]; then
 	update
 	exit 1
 else
-	green "Helper Bot running..."
+	red "Helper Bot running..."
 	#sudo service redis-server restart
 	lua ./bot/bot.lua
 fi
